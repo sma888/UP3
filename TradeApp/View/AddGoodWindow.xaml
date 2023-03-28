@@ -1,0 +1,176 @@
+﻿<Window x:Class="TradeApp.View.AddGoodWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TradeApp.View"
+        mc:Ignorable="d"
+        MinHeight="800"
+        MinWidth="300"
+        Title="Окно добавления" Height="830" Width="430" Icon="/Resources/icon.ico"
+        WindowStartupLocation="CenterScreen">
+    <Grid>
+
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        
+        <StackPanel Grid.Row="0">
+            <Label
+                Content="Артикул"
+                Margin="10,2,10,0"
+                FontSize="16"/>
+            <TextBox 
+                Template="{DynamicResource TextBoxTemplate}"
+                Margin="10,0"
+                Text="{Binding Articul}"
+                Height="30"/>
+        </StackPanel>
+
+        <StackPanel Grid.Row="1">
+            <Label
+                Content="Название товара"
+                Margin="10,2,10,0"
+                FontSize="16"/>
+            <TextBox 
+                Template="{DynamicResource TextBoxTemplate}"
+                Text="{Binding ProductName}"
+                Margin="10,0"
+                Height="30"/>
+        </StackPanel>
+
+        <StackPanel Grid.Row="2">
+            <Label
+                Content="ID ед. измерения"
+                Margin="10,2,10,0"
+                FontSize="16"/>
+            <TextBox
+                Template="{DynamicResource TextBoxTemplate}"
+                Text="{Binding Unit_id}"
+                Margin="10,0"
+                Height="30"/>
+        </StackPanel>
+
+        <StackPanel Grid.Row="3">
+            <Label
+                Content="Цена"
+                Margin="10,2,10,0"
+                FontSize="16"/>
+            <TextBox
+                Template="{DynamicResource TextBoxTemplate}"
+                Text="{Binding Price}"
+                Margin="10,0"
+                Height="30"/>
+        </StackPanel>
+
+        <StackPanel Grid.Row="4">
+            <Label
+                Content="Максимальная скидка"
+                Margin="10,2,10,0"
+                FontSize="16"/>
+            <TextBox
+                Template="{DynamicResource TextBoxTemplate}"
+                Text="{Binding MaxDiscount}"
+                Margin="10,0"
+                Height="30"/>
+        </StackPanel>
+
+        <StackPanel Grid.Row="5">
+            <Label
+                Content="ID изготовителя"
+                Margin="10,2,10,0"
+                FontSize="16"/>
+            <TextBox
+                Text="{Binding Manufacturer_id}"
+                Template="{DynamicResource TextBoxTemplate}"
+                Margin="10,0"
+                Height="30"/>
+        </StackPanel>
+
+
+        <StackPanel Grid.Row="6">
+            <Label
+                Content="ID поставщика"
+                Margin="10,2,10,0"
+                FontSize="16"/>
+            <TextBox
+                Text="{Binding Supplier_id}"
+                Template="{DynamicResource TextBoxTemplate}"
+                Margin="10,0"
+                Height="30"/>
+        </StackPanel>
+
+        <StackPanel Grid.Row="7">
+            <Label
+                Content="ID категории"
+                Margin="10,2,10,0"
+                FontSize="16"/>
+            <TextBox
+                Text="{Binding Category_id}"
+                Template="{DynamicResource TextBoxTemplate}"
+                Margin="10,0"
+                Height="30"/>
+        </StackPanel>
+
+
+
+        <StackPanel Grid.Row="8">
+            <Label
+                Content="Текущая скидка"
+                Margin="10,2,10,0"
+                FontSize="16"/>
+            <TextBox
+                Text="{Binding CurrentDiscount}"
+                Template="{DynamicResource TextBoxTemplate}"
+                Margin="10,0"
+                Height="30"/>
+        </StackPanel>
+
+
+        <StackPanel Grid.Row="9">
+            <Label
+                Content="Кол-во на складе"
+                Margin="10,2,10,0"
+                FontSize="16"/>
+            <TextBox
+                Text="{Binding StorageAmount}"
+                Template="{DynamicResource TextBoxTemplate}"
+                Margin="10,0"
+                Height="30"/>
+        </StackPanel>
+
+        <StackPanel Grid.Row="10">
+            <Label
+                Content="Описание товара"
+                Margin="10,2,10,0"
+                FontSize="16"/>
+            <TextBox
+                Text="{Binding Description}"
+                Template="{DynamicResource TextBoxTemplate}"
+                Margin="10,0"
+                Height="30"/>
+        </StackPanel>
+
+        <Button 
+            Content="Добавить"
+            FontSize="20"
+            Name="btnAdd"
+            Click="btnAdd_Click"
+            Template="{DynamicResource ButtonStyle}"
+            Grid.Row="11"
+            Width="140"
+            Height="40"/>
+
+    </Grid>
+</Window>

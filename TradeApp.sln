@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32413.511
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShopForAnimals", "TradeApp\ShopForAnimals.csproj", "{F9400D56-510D-4DA0-A0EB-63181D90A660}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShopForAnimalsTests", "ShopForAnimalsTests\ShopForAnimalsTests.csproj", "{871FA8E1-E785-4A9A-BE67-0FABB411B96B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F9400D56-510D-4DA0-A0EB-63181D90A660}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9400D56-510D-4DA0-A0EB-63181D90A660}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9400D56-510D-4DA0-A0EB-63181D90A660}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9400D56-510D-4DA0-A0EB-63181D90A660}.Release|Any CPU.Build.0 = Release|Any CPU
+		{871FA8E1-E785-4A9A-BE67-0FABB411B96B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{871FA8E1-E785-4A9A-BE67-0FABB411B96B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{871FA8E1-E785-4A9A-BE67-0FABB411B96B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{871FA8E1-E785-4A9A-BE67-0FABB411B96B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4EBE9D71-309A-42E9-8A2D-D56F8B708C6C}
+	EndGlobalSection
+EndGlobal

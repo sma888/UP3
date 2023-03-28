@@ -1,0 +1,83 @@
+D:\IS32\Trade\TradeApp\TradeApp\bin\Debug\TradeApp.exe.config
+D:\IS32\Trade\TradeApp\TradeApp\bin\Debug\TradeApp.exe
+D:\IS32\Trade\TradeApp\TradeApp\bin\Debug\TradeApp.pdb
+D:\IS32\Trade\TradeApp\TradeApp\obj\Debug\ShopForAnimals.csproj.AssemblyReference.cache
+D:\IS32\Trade\TradeApp\TradeApp\obj\Debug\ShopForAnimals.csproj.SuggestedBindingRedirects.cache
+D:\IS32\Trade\TradeApp\TradeApp\obj\Debug\App.g.cs
+D:\IS32\Trade\TradeApp\TradeApp\obj\Debug\TradeApp_MarkupCompile.cache
+D:\IS32\Trade\TradeApp\TradeApp\obj\Debug\TradeApp_MarkupCompile.lref
+D:\IS32\Trade\TradeApp\TradeApp\obj\Debug\TradeApp.g.resources
+D:\IS32\Trade\TradeApp\TradeApp\obj\Debug\TradeApp.Properties.Resources.resources
+D:\IS32\Trade\TradeApp\TradeApp\obj\Debug\ShopForAnimals.csproj.GenerateResource.cache
+D:\IS32\Trade\TradeApp\TradeApp\obj\Debug\ShopForAnimals.csproj.CoreCompileInputs.cache
+D:\IS32\Trade\TradeApp\TradeApp\obj\Debug\TradeApp.exe
+D:\IS32\Trade\TradeApp\TradeApp\obj\Debug\TradeApp.pdb
+D:\IS32\Trade\TradeApp\TradeApp\obj\Debug\App.baml
+D:\IS32\Trade\TradeApp\TradeApp\bin\Debug\EntityFramework.dll
+D:\IS32\Trade\TradeApp\TradeApp\bin\Debug\EntityFramework.SqlServer.dll
+D:\IS32\Trade\TradeApp\TradeApp\bin\Debug\EntityFramework.xml
+D:\IS32\Trade\TradeApp\TradeApp\bin\Debug\EntityFramework.SqlServer.xml
+D:\IS32\Trade\TradeApp\TradeApp\bin\Debug\ru\EntityFramework.resources.dll
+D:\IS32\Trade\TradeApp\TradeApp\obj\Debug\View\AuthWindow.g.cs
+D:\IS32\Trade\TradeApp\TradeApp\obj\Debug\TradeApp_Content.g.cs
+D:\IS32\Trade\TradeApp\TradeApp\obj\Debug\View\AuthWindow.baml
+D:\IS32\Trade\TradeApp\TradeApp\obj\Debug\ShopForAnimals.csproj.CopyComplete
+D:\IS32\Trade\TradeApp\TradeApp\obj\Debug\View\GoodsWindow.g.cs
+D:\IS32\Trade\TradeApp\TradeApp\obj\Debug\View\GoodsWindow.baml
+D:\IS32\Trade\TradeApp\TradeApp\obj\Debug\View\AddGoodWindow.g.cs
+D:\IS32\Trade\TradeApp\TradeApp\obj\Debug\View\AddGoodWindow.baml
+D:\Download\Trade\Trade\TradeApp\TradeApp\bin\Debug\TradeApp.exe.config
+D:\Download\Trade\Trade\TradeApp\TradeApp\bin\Debug\TradeApp.exe
+D:\Download\Trade\Trade\TradeApp\TradeApp\bin\Debug\TradeApp.pdb
+D:\Download\Trade\Trade\TradeApp\TradeApp\bin\Debug\EntityFramework.dll
+D:\Download\Trade\Trade\TradeApp\TradeApp\bin\Debug\EntityFramework.SqlServer.dll
+D:\Download\Trade\Trade\TradeApp\TradeApp\bin\Debug\EntityFramework.xml
+D:\Download\Trade\Trade\TradeApp\TradeApp\bin\Debug\EntityFramework.SqlServer.xml
+D:\Download\Trade\Trade\TradeApp\TradeApp\bin\Debug\ru\EntityFramework.resources.dll
+D:\Download\Trade\Trade\TradeApp\TradeApp\obj\Debug\ShopForAnimals.csproj.AssemblyReference.cache
+D:\Download\Trade\Trade\TradeApp\TradeApp\obj\Debug\ShopForAnimals.csproj.SuggestedBindingRedirects.cache
+D:\Download\Trade\Trade\TradeApp\TradeApp\obj\Debug\View\AddGoodWindow.g.cs
+D:\Download\Trade\Trade\TradeApp\TradeApp\obj\Debug\View\AuthWindow.g.cs
+D:\Download\Trade\Trade\TradeApp\TradeApp\obj\Debug\View\GoodsWindow.g.cs
+D:\Download\Trade\Trade\TradeApp\TradeApp\obj\Debug\App.g.cs
+D:\Download\Trade\Trade\TradeApp\TradeApp\obj\Debug\TradeApp_Content.g.cs
+D:\Download\Trade\Trade\TradeApp\TradeApp\obj\Debug\TradeApp_MarkupCompile.cache
+D:\Download\Trade\Trade\TradeApp\TradeApp\obj\Debug\TradeApp_MarkupCompile.lref
+D:\Download\Trade\Trade\TradeApp\TradeApp\obj\Debug\App.baml
+D:\Download\Trade\Trade\TradeApp\TradeApp\obj\Debug\View\AddGoodWindow.baml
+D:\Download\Trade\Trade\TradeApp\TradeApp\obj\Debug\View\AuthWindow.baml
+D:\Download\Trade\Trade\TradeApp\TradeApp\obj\Debug\View\GoodsWindow.baml
+D:\Download\Trade\Trade\TradeApp\TradeApp\obj\Debug\TradeApp.g.resources
+D:\Download\Trade\Trade\TradeApp\TradeApp\obj\Debug\TradeApp.Properties.Resources.resources
+D:\Download\Trade\Trade\TradeApp\TradeApp\obj\Debug\ShopForAnimals.csproj.GenerateResource.cache
+D:\Download\Trade\Trade\TradeApp\TradeApp\obj\Debug\ShopForAnimals.csproj.CoreCompileInputs.cache
+D:\Download\Trade\Trade\TradeApp\TradeApp\obj\Debug\ShopForAnimals.csproj.CopyComplete
+D:\Download\Trade\Trade\TradeApp\TradeApp\obj\Debug\TradeApp.exe
+D:\Download\Trade\Trade\TradeApp\TradeApp\obj\Debug\TradeApp.pdb
+C:\Users\Админ\Downloads\Trade (2)\Trade\Trade\TradeApp\TradeApp\bin\Debug\TradeApp.exe.config
+C:\Users\Админ\Downloads\Trade (2)\Trade\Trade\TradeApp\TradeApp\bin\Debug\TradeApp.exe
+C:\Users\Админ\Downloads\Trade (2)\Trade\Trade\TradeApp\TradeApp\bin\Debug\TradeApp.pdb
+C:\Users\Админ\Downloads\Trade (2)\Trade\Trade\TradeApp\TradeApp\bin\Debug\EntityFramework.dll
+C:\Users\Админ\Downloads\Trade (2)\Trade\Trade\TradeApp\TradeApp\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Админ\Downloads\Trade (2)\Trade\Trade\TradeApp\TradeApp\bin\Debug\EntityFramework.xml
+C:\Users\Админ\Downloads\Trade (2)\Trade\Trade\TradeApp\TradeApp\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Админ\Downloads\Trade (2)\Trade\Trade\TradeApp\TradeApp\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\Админ\Downloads\Trade (2)\Trade\Trade\TradeApp\TradeApp\obj\Debug\ShopForAnimals.csproj.AssemblyReference.cache
+C:\Users\Админ\Downloads\Trade (2)\Trade\Trade\TradeApp\TradeApp\obj\Debug\View\AddGoodWindow.g.cs
+C:\Users\Админ\Downloads\Trade (2)\Trade\Trade\TradeApp\TradeApp\obj\Debug\View\AuthWindow.g.cs
+C:\Users\Админ\Downloads\Trade (2)\Trade\Trade\TradeApp\TradeApp\obj\Debug\View\GoodsWindow.g.cs
+C:\Users\Админ\Downloads\Trade (2)\Trade\Trade\TradeApp\TradeApp\obj\Debug\App.g.cs
+C:\Users\Админ\Downloads\Trade (2)\Trade\Trade\TradeApp\TradeApp\obj\Debug\TradeApp_Content.g.cs
+C:\Users\Админ\Downloads\Trade (2)\Trade\Trade\TradeApp\TradeApp\obj\Debug\TradeApp_MarkupCompile.cache
+C:\Users\Админ\Downloads\Trade (2)\Trade\Trade\TradeApp\TradeApp\obj\Debug\TradeApp_MarkupCompile.lref
+C:\Users\Админ\Downloads\Trade (2)\Trade\Trade\TradeApp\TradeApp\obj\Debug\App.baml
+C:\Users\Админ\Downloads\Trade (2)\Trade\Trade\TradeApp\TradeApp\obj\Debug\View\AddGoodWindow.baml
+C:\Users\Админ\Downloads\Trade (2)\Trade\Trade\TradeApp\TradeApp\obj\Debug\View\AuthWindow.baml
+C:\Users\Админ\Downloads\Trade (2)\Trade\Trade\TradeApp\TradeApp\obj\Debug\View\GoodsWindow.baml
+C:\Users\Админ\Downloads\Trade (2)\Trade\Trade\TradeApp\TradeApp\obj\Debug\TradeApp.g.resources
+C:\Users\Админ\Downloads\Trade (2)\Trade\Trade\TradeApp\TradeApp\obj\Debug\TradeApp.Properties.Resources.resources
+C:\Users\Админ\Downloads\Trade (2)\Trade\Trade\TradeApp\TradeApp\obj\Debug\ShopForAnimals.csproj.GenerateResource.cache
+C:\Users\Админ\Downloads\Trade (2)\Trade\Trade\TradeApp\TradeApp\obj\Debug\ShopForAnimals.csproj.CoreCompileInputs.cache
+C:\Users\Админ\Downloads\Trade (2)\Trade\Trade\TradeApp\TradeApp\obj\Debug\ShopForAnimals.csproj.CopyComplete
+C:\Users\Админ\Downloads\Trade (2)\Trade\Trade\TradeApp\TradeApp\obj\Debug\TradeApp.exe
+C:\Users\Админ\Downloads\Trade (2)\Trade\Trade\TradeApp\TradeApp\obj\Debug\TradeApp.pdb

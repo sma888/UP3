@@ -1,0 +1,63 @@
+﻿<Window x:Class="TradeApp.View.GoodsWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TradeApp.View"
+        mc:Ignorable="d"
+        MinHeight="400"
+        MinWidth="600"
+        Title="Окно товаров" Height="450" Width="800" Icon="/Resources/icon.ico" WindowStartupLocation="CenterScreen">
+    <Grid>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <StackPanel>
+            <Button 
+            x:Name="btnAdd"
+            Click="btnAdd_Click"
+            Template="{DynamicResource ButtonStyle}"
+            Height="40"
+            Width="100"
+            HorizontalAlignment="Right"
+            Margin="5"
+            Content="Добавить"/>
+
+            <Button
+                x:Name="btnDelete"
+                Click="btnDelete_Click"
+            Template="{DynamicResource ButtonStyle}"
+            Height="40"
+            Width="100"
+            HorizontalAlignment="Right"
+            Margin="5"
+            Content="Удалить"/>
+        </StackPanel>
+
+
+        <DataGrid
+            Grid.Row="1"
+            IsReadOnly="True"
+            AutoGenerateColumns="False"
+            ItemsSource="{Binding Goods}"
+            SelectedItem="{Binding SelectedGood}">
+            <DataGrid.Columns>
+                <DataGridTextColumn
+                    Header="Название продукта"
+                        Binding="{Binding ProductName}"
+                    />
+                <DataGridTextColumn
+                    Header="Цена"
+                        Binding="{Binding Price}"
+                    />
+                <DataGridTextColumn
+                    Header="Описание"
+                        Binding="{Binding Description}"
+                    />
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</Window>
