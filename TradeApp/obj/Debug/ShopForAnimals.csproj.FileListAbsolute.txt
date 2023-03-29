@@ -81,3 +81,31 @@ C:\Users\Админ\Downloads\Trade (2)\Trade\Trade\TradeApp\TradeApp\obj\Debug\
 C:\Users\Админ\Downloads\Trade (2)\Trade\Trade\TradeApp\TradeApp\obj\Debug\ShopForAnimals.csproj.CopyComplete
 C:\Users\Админ\Downloads\Trade (2)\Trade\Trade\TradeApp\TradeApp\obj\Debug\TradeApp.exe
 C:\Users\Админ\Downloads\Trade (2)\Trade\Trade\TradeApp\TradeApp\obj\Debug\TradeApp.pdb
+C:\Users\Admin\Source\Repos\UP3\TradeApp\bin\Debug\TradeApp.exe.config
+C:\Users\Admin\Source\Repos\UP3\TradeApp\bin\Debug\TradeApp.exe
+C:\Users\Admin\Source\Repos\UP3\TradeApp\bin\Debug\TradeApp.pdb
+C:\Users\Admin\Source\Repos\UP3\TradeApp\bin\Debug\EntityFramework.dll
+C:\Users\Admin\Source\Repos\UP3\TradeApp\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Admin\Source\Repos\UP3\TradeApp\bin\Debug\EntityFramework.xml
+C:\Users\Admin\Source\Repos\UP3\TradeApp\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Admin\Source\Repos\UP3\TradeApp\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\Admin\Source\Repos\UP3\TradeApp\obj\Debug\ShopForAnimals.csproj.AssemblyReference.cache
+C:\Users\Admin\Source\Repos\UP3\TradeApp\obj\Debug\ShopForAnimals.csproj.SuggestedBindingRedirects.cache
+C:\Users\Admin\Source\Repos\UP3\TradeApp\obj\Debug\View\AddGoodWindow.g.cs
+C:\Users\Admin\Source\Repos\UP3\TradeApp\obj\Debug\View\AuthWindow.g.cs
+C:\Users\Admin\Source\Repos\UP3\TradeApp\obj\Debug\View\GoodsWindow.g.cs
+C:\Users\Admin\Source\Repos\UP3\TradeApp\obj\Debug\App.g.cs
+C:\Users\Admin\Source\Repos\UP3\TradeApp\obj\Debug\TradeApp_Content.g.cs
+C:\Users\Admin\Source\Repos\UP3\TradeApp\obj\Debug\TradeApp_MarkupCompile.cache
+C:\Users\Admin\Source\Repos\UP3\TradeApp\obj\Debug\TradeApp_MarkupCompile.lref
+C:\Users\Admin\Source\Repos\UP3\TradeApp\obj\Debug\App.baml
+C:\Users\Admin\Source\Repos\UP3\TradeApp\obj\Debug\View\AddGoodWindow.baml
+C:\Users\Admin\Source\Repos\UP3\TradeApp\obj\Debug\View\AuthWindow.baml
+C:\Users\Admin\Source\Repos\UP3\TradeApp\obj\Debug\View\GoodsWindow.baml
+C:\Users\Admin\Source\Repos\UP3\TradeApp\obj\Debug\TradeApp.g.resources
+C:\Users\Admin\Source\Repos\UP3\TradeApp\obj\Debug\TradeApp.Properties.Resources.resources
+C:\Users\Admin\Source\Repos\UP3\TradeApp\obj\Debug\ShopForAnimals.csproj.GenerateResource.cache
+C:\Users\Admin\Source\Repos\UP3\TradeApp\obj\Debug\ShopForAnimals.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Source\Repos\UP3\TradeApp\obj\Debug\ShopForAnimals.csproj.CopyComplete
+C:\Users\Admin\Source\Repos\UP3\TradeApp\obj\Debug\TradeApp.exe
+C:\Users\Admin\Source\Repos\UP3\TradeApp\obj\Debug\TradeApp.pdb

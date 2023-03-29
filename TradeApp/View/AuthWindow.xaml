@@ -8,7 +8,7 @@
         MinHeight="450"
         MinWidth="350"
         WindowStartupLocation="CenterScreen"
-        Title="Окно авторизации" Height="470" Width="400" Icon="D:\IS32\Trade\TradeApp\TradeApp\Resources\icon.ico">
+        Title="Окно авторизации" Height="470" Width="400" Icon="/Resources/icon.ico">
 
     <Grid>
 
@@ -26,7 +26,7 @@
 
         <StackPanel Grid.ColumnSpan="2">
             <Image
-            Source="D:\IS32\Trade\TradeApp\TradeApp\Resources\logo.png"
+            Source="/Resources/logo.png"
             Grid.Column="1"
             Width="60"
             Height="60"

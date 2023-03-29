@@ -8,6 +8,10 @@
             <Setter Property="Foreground" Value="Black"/>
             <Setter Property="FontFamily" Value="Comic Sans MS"/>
         </Style>
+
+        <Style TargetType="TextBox">
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+        </Style>
         
         <SolidColorBrush x:Key="Button.MouseOver.Background" Color="#FFBEE6FD"/>
         <SolidColorBrush x:Key="Button.MouseOver.Border" Color="#FF3C7FB1"/>

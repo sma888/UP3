@@ -64,28 +64,6 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="DbSingletone\DbSingletone.cs" />
-    <Compile Include="Model\Good.cs" />
-    <Compile Include="ViewModel\AddGoodWindowViewModel.cs" />
-    <Compile Include="ViewModel\GoodsWindowViewModel.cs" />
-    <Compile Include="View\AddGoodWindow.xaml.cs">
-      <DependentUpon>AddGoodWindow.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="View\GoodsWindow.xaml.cs">
-      <DependentUpon>GoodsWindow.xaml</DependentUpon>
-    </Compile>
-    <Page Include="View\AddGoodWindow.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="View\AuthWindow.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Compile Include="App.xaml.cs">
-      <DependentUpon>App.xaml</DependentUpon>
-      <SubType>Code</SubType>
-    </Compile>
     <Compile Include="Category.cs">
       <DependentUpon>TradeDatabase.tt</DependentUpon>
     </Compile>
@@ -95,7 +73,7 @@
     <Compile Include="Client.cs">
       <DependentUpon>TradeDatabase.tt</DependentUpon>
     </Compile>
-    <Compile Include="Core\Functions.cs" />
+    <Compile Include="DbSingletone\DbSingletone.cs" />
     <Compile Include="Employee.cs">
       <DependentUpon>TradeDatabase.tt</DependentUpon>
     </Compile>
@@ -105,7 +83,7 @@
     <Compile Include="Manufacturer.cs">
       <DependentUpon>TradeDatabase.tt</DependentUpon>
     </Compile>
-    <Compile Include="Model\User.cs" />
+    <Compile Include="Model\Good.cs" />
     <Compile Include="Order.cs">
       <DependentUpon>TradeDatabase.tt</DependentUpon>
     </Compile>
@@ -145,6 +123,28 @@
     <Compile Include="User.cs">
       <DependentUpon>TradeDatabase.tt</DependentUpon>
     </Compile>
+    <Compile Include="ViewModel\AddGoodWindowViewModel.cs" />
+    <Compile Include="ViewModel\GoodsWindowViewModel.cs" />
+    <Compile Include="View\AddGoodWindow.xaml.cs">
+      <DependentUpon>AddGoodWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\GoodsWindow.xaml.cs">
+      <DependentUpon>GoodsWindow.xaml</DependentUpon>
+    </Compile>
+    <Page Include="View\AddGoodWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\AuthWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\Functions.cs" />
+    <Compile Include="Model\User.cs" />
     <Compile Include="ViewModel\AuthWindowViewModel.cs" />
     <Compile Include="ViewModel\BaseViewModel.cs" />
     <Compile Include="View\AuthWindow.xaml.cs">
@@ -190,22 +190,21 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
-  <ItemGroup>
-    <Resource Include="Resources\icon.ico" />
-    <Resource Include="Resources\logo.png" />
-  </ItemGroup>
   <ItemGroup>
     <Content Include="TradeDatabase.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>TradeDatabase.Context.cs</LastGenOutput>
       <DependentUpon>TradeDatabase.edmx</DependentUpon>
+      <LastGenOutput>TradeDatabase.Context.cs</LastGenOutput>
     </Content>
     <Content Include="TradeDatabase.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <DependentUpon>TradeDatabase.edmx</DependentUpon>
       <LastGenOutput>TradeDatabase.cs</LastGenOutput>
     </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\icon.ico" />
+    <Resource Include="Resources\logo.png" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />

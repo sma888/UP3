@@ -1,18 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Collections.ObjectModel;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Shapes;
-using TradeApp.Model;
+﻿using System.Windows;
 using TradeApp.ViewModel;
 
 namespace TradeApp.View
@@ -25,7 +11,7 @@ namespace TradeApp.View
         public AddGoodWindow(Goods SelectGood)
         {
             InitializeComponent();
-            this.DataContext = new AddGoodWindowViewModel();
+            this.DataContext = new AddGoodWindowViewModel(SelectGood);
         }
 
         private void btnAdd_Click(object sender, RoutedEventArgs e)

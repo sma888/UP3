@@ -1,11 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Collections.ObjectModel;
-using System.Data.Entity.Migrations;
+﻿using System.Data.Entity.Migrations;
 using System.Data.Entity.Validation;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
 using TradeApp.View;
 
@@ -28,6 +22,19 @@ namespace TradeApp.ViewModel
         private Goods _goods;
 
 
+        public AddGoodWindowViewModel(Goods select)
+        {
+            if (select is null)
+            {
+                _goods = select = new Goods();
+            }
+            else
+            {
+                _goods = select;
+            }
+        }
+
+
         public Goods SelectedGood
         {
             get => _selectedGood;
@@ -37,6 +44,7 @@ namespace TradeApp.ViewModel
                 OnPropertyChanged(nameof(SelectedGood));
             }
         }
+
         public Goods Goods
         {
             get => _goods;
@@ -163,36 +171,17 @@ namespace TradeApp.ViewModel
 
             try
             {
-                if (_selectedGood == null)
-                {
-                    _goods = new Goods();
-                    _goods.Articul = _articul;
-                    _goods.ProductName = _productName;
-                    _goods.Manufacturer_id = _manufacturer_id;
-                    _goods.Price = _price;
-                    _goods.Supplier_id = _supplier_id;
-                    _goods.Category_id = _category_id;
-                    _goods.CurrentDiscount = _currentDiscount;
-                    _goods.StorageAmount = _storageAmount;
-                    _goods.Description = _description;
-                    _goods.MaxDiscount = _maxDiscount;
-                    _goods.Unit_id = _unitId;
-                }
-                else
-                {
-                    _goods = _selectedGood;
-                }
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message);
-            }
-
-
-
-            try
-            {
-
+                _goods.Articul = _articul;
+                _goods.ProductName = _productName;
+                _goods.Manufacturer_id = _manufacturer_id;
+                _goods.Price = _price;
+                _goods.Supplier_id = _supplier_id;
+                _goods.Category_id = _category_id;
+                _goods.CurrentDiscount = _currentDiscount;
+                _goods.StorageAmount = _storageAmount;
+                _goods.Description = _description;
+                _goods.MaxDiscount = _maxDiscount;
+                _goods.Unit_id = _unitId;
                 DbSingletone.DbSingletone.Db.Goods.AddOrUpdate(_goods);
                 DbSingletone.DbSingletone.Db.SaveChanges();
                 MessageBox.Show("Данные сохранены!", "Сообщение");
